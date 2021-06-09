@@ -33,9 +33,9 @@ library(org.Hs.eg.db)
 ###
 DATA_DIR <- '../data/'
 OUT_DIR <- '../img/'
-#NAME <- 'H3K4me3_A549.intersect_with_DeepZ'
-#NAME <- 'DeepZ'
-NAME <- 'H3K36me3_A549.ENCFF127LEC.hg19.filtered'
+#NAME <- 'H3K36me3_A549.intersect_with_DeepZ'
+NAME <- 'DeepZ'
+#NAME <- 'H3K36me3_A549.ENCFF127LEC.hg19.filtered'
 #NAME <- 'H3K36me3_A549.ENCFF584FSY.hg19.filtered'
 BED_FN <- paste0(DATA_DIR, NAME, '.bed')
 
